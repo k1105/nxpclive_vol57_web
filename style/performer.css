@@ -1,0 +1,50 @@
+.student-item {
+  width: 22%;
+}
+.guest-item {
+  width: 45%;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.guest-name {
+  margin: 10px 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 7px 0;
+}
+
+hr {
+  margin-bottom: 60px;
+}
+
+.container {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 520px) {
+  /*for smartphone*/
+  .guest-name {
+    font-size: 1.7rem;
+  }
+  .student-item {
+    width: 49%;
+    margin-bottom: 30px;
+  }
+  .guest-item {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  /*for tablet*/
+}

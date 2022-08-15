@@ -1,0 +1,24 @@
+p {
+  line-height: 1.5rem;
+}
+
+.item {
+  display: block;
+  width: 48%;
+}
+
+@media screen and (max-width: 520px) {
+  /*for smartphone*/
+  .item {
+    display: block;
+    width: 100%;
+  }
+
+  img {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  /*for tablet*/
+}

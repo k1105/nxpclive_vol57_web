@@ -1,0 +1,25 @@
+p {
+  line-height: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.item {
+  display: block;
+  width: 48%;
+}
+
+@media screen and (max-width: 520px) {
+  /*for smartphone*/
+  .item {
+    display: block;
+    width: 100%;
+  }
+
+  img {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  /*for tablet*/
+}

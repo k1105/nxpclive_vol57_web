@@ -1,0 +1,38 @@
+.note {
+  margin-left: 12px;
+}
+
+.time {
+  width: 100px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 30px;
+  border-spacing: 0;
+}
+
+.item {
+  width: 40%;
+  margin-bottom: 60px;
+}
+
+td {
+  text-align: center;
+  padding: 30px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  border-bottom: #000 2px solid;
+}
+
+@media screen and (max-width: 520px) {
+  /*for smartphone*/
+  .item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  /*for tablet*/
+}
